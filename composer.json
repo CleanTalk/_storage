@@ -1,6 +1,7 @@
 {
   "name": "cleantalk/storage",
   "description": "CleanTalk Storage class.",
+  "type": "cleantalk-apbct-lib",
   "authors": [
     {
       "name": "CleanTalk Team",
@@ -8,9 +9,12 @@
     }
   ],
   "license": "GPL-3.0-or-later",
+  "require": {
+    "cleantalk/apbct-installer": "*"
+  },
   "autoload": {
     "psr-4": {
-      "Storage\\": "/"
+      "Cleantalk\\Common\\Storage\\": "/"
     }
   }
 }
